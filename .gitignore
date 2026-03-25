@@ -1,0 +1,25 @@
+models
+models/
+
+data
+data/
+
+.venv
+.venv/
+
+vosk_model.zip
+vosk_model.zip/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.venv
+venv/

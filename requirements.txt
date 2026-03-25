@@ -1,0 +1,62 @@
+tqdm
+# Core
+python-dotenv
+requests
+
+# Voice Input (STT)
+vosk
+sounddevice
+pyaudio
+
+# Voice Output (TTS)
+edge-tts
+playsound==1.2.2
+pygame
+
+# Wake Word (optional but recommended)
+pvporcupine
+
+# Local LLM (Ollama client)
+httpx
+
+# Memory & Database
+faiss-cpu
+sqlite-utils
+
+# NLP / Language Detection
+langdetect
+
+# Async + Utilities
+asyncio
+aiofiles
+
+# Task Scheduling (reminders, alarms)
+schedule
+
+# CLI / Dev tools
+rich
+
+# Optional (better performance / future scaling)
+numpy
+scipy
+
+# Smart integrations (future use)
+spotipy          # Spotify
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+
+# WhatsApp automation (unofficial)
+pywhatkit
+
+# FastAPI (future frontend / API)
+fastapi
+uvicorn
+
+# File handling / parsing
+pydantic
+
+# Logging
+loguru
