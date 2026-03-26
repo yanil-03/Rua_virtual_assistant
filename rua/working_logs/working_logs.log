@@ -1,0 +1,112 @@
+{"time": "2026-03-26 16:00:12.395054", "stage": "request", "event": "REQUEST_START", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.395533", "stage": "test", "event": "START", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.395879", "stage": "test", "event": "INFO", "message": "Smoke test", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.396402", "stage": "test", "event": "END", "latency_sec": 0.001, "output": "ok", "tokens": 5, "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.396678", "stage": "test", "event": "ERROR", "error": "fake", "trace": "NoneType: None\n", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.397334", "stage": "request", "event": "REQUEST_END", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.397578", "stage": "skill_time", "event": "START", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:00:12.397840", "stage": "skill_time", "event": "END", "latency_sec": 0.0, "output": "The current time is 04:00 PM on Thursday, March 26 2026.", "request_id": "b6f5d423"}
+{"time": "2026-03-26 16:09:18.855632", "stage": "assistant", "event": "INFO", "message": "RUA started"}
+{"time": "2026-03-26 16:09:18.856215", "stage": "request", "event": "REQUEST_START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:18.856567", "stage": "wake_word", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:18.857311", "stage": "wake_word", "event": "INFO", "message": "Waiting for wake word: 'rua'", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:22.071168", "stage": "wake_word", "event": "INFO", "message": "Could not understand audio", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:25.245405", "stage": "wake_word", "event": "INFO", "message": "Could not understand audio", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:36.611755", "stage": "wake_word", "event": "INFO", "message": "Could not understand audio", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:45.829749", "stage": "wake_word", "event": "INFO", "message": "Could not understand audio", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:50.847887", "stage": "wake_word", "event": "INFO", "message": "Wake word detected in: 'rua'", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:50.850464", "stage": "wake_word", "event": "END", "latency_sec": 31.994, "output": "rua", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:50.875198", "stage": "listener", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:50.876595", "stage": "listener", "event": "INFO", "message": "Listening for command…", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.203382", "stage": "listener", "event": "END", "latency_sec": 5.328, "output": "what ise your name", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.205249", "stage": "memory", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.205880", "stage": "memory", "event": "INFO", "message": "Stored user turn | history depth: 1", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.206849", "stage": "memory", "event": "END", "latency_sec": 0.002, "output": "1 entries", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.208311", "stage": "router", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.209495", "stage": "router", "event": "INFO", "message": "Intent detected: 'general' | backend: 'local'", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.311845", "stage": "llm", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:09:56.312558", "stage": "llm", "event": "INFO", "message": "Model: llama3 | Prompt length: 18 chars", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.080008", "stage": "llm", "event": "STREAM", "chunk": "It", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.297616", "stage": "llm", "event": "STREAM", "chunk": " seems", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.425743", "stage": "llm", "event": "STREAM", "chunk": " like", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.552696", "stage": "llm", "event": "STREAM", "chunk": " you", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.677543", "stage": "llm", "event": "STREAM", "chunk": "'re", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.819190", "stage": "llm", "event": "STREAM", "chunk": " asking", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:07.960047", "stage": "llm", "event": "STREAM", "chunk": " me", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.095178", "stage": "llm", "event": "STREAM", "chunk": " my", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.222979", "stage": "llm", "event": "STREAM", "chunk": " name", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.349241", "stage": "llm", "event": "STREAM", "chunk": "!\n\n", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.476618", "stage": "llm", "event": "STREAM", "chunk": "I", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.603353", "stage": "llm", "event": "STREAM", "chunk": " don", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.729377", "stage": "llm", "event": "STREAM", "chunk": "'t", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.851591", "stage": "llm", "event": "STREAM", "chunk": " have", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:08.974083", "stage": "llm", "event": "STREAM", "chunk": " a", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.094323", "stage": "llm", "event": "STREAM", "chunk": " personal", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.218706", "stage": "llm", "event": "STREAM", "chunk": " name", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.341406", "stage": "llm", "event": "STREAM", "chunk": ",", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.465393", "stage": "llm", "event": "STREAM", "chunk": " as", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.588119", "stage": "llm", "event": "STREAM", "chunk": " I", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.710477", "stage": "llm", "event": "STREAM", "chunk": "'m", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.835235", "stage": "llm", "event": "STREAM", "chunk": " just", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:09.957421", "stage": "llm", "event": "STREAM", "chunk": " an", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.080582", "stage": "llm", "event": "STREAM", "chunk": " AI", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.202322", "stage": "llm", "event": "STREAM", "chunk": " designed", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.324324", "stage": "llm", "event": "STREAM", "chunk": " to", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.447378", "stage": "llm", "event": "STREAM", "chunk": " assist", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.570494", "stage": "llm", "event": "STREAM", "chunk": " and", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.699415", "stage": "llm", "event": "STREAM", "chunk": " communicate", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.823148", "stage": "llm", "event": "STREAM", "chunk": " with", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:10.945154", "stage": "llm", "event": "STREAM", "chunk": " users", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.066659", "stage": "llm", "event": "STREAM", "chunk": ".", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.189108", "stage": "llm", "event": "STREAM", "chunk": " I", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.312150", "stage": "llm", "event": "STREAM", "chunk": "'m", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.433939", "stage": "llm", "event": "STREAM", "chunk": " often", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.556988", "stage": "llm", "event": "STREAM", "chunk": " referred", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.679755", "stage": "llm", "event": "STREAM", "chunk": " to", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.803761", "stage": "llm", "event": "STREAM", "chunk": " as", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:11.927990", "stage": "llm", "event": "STREAM", "chunk": " \"", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.050044", "stage": "llm", "event": "STREAM", "chunk": "Assistant", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.180167", "stage": "llm", "event": "STREAM", "chunk": "\"", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.302738", "stage": "llm", "event": "STREAM", "chunk": " or", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.424783", "stage": "llm", "event": "STREAM", "chunk": " \"", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.547541", "stage": "llm", "event": "STREAM", "chunk": "AI", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.671925", "stage": "llm", "event": "STREAM", "chunk": " Assistant", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.802450", "stage": "llm", "event": "STREAM", "chunk": ",\"", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:12.926682", "stage": "llm", "event": "STREAM", "chunk": " but", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.048219", "stage": "llm", "event": "STREAM", "chunk": " I", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.170360", "stage": "llm", "event": "STREAM", "chunk": " don", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.293698", "stage": "llm", "event": "STREAM", "chunk": "'t", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.416755", "stage": "llm", "event": "STREAM", "chunk": " have", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.539950", "stage": "llm", "event": "STREAM", "chunk": " a", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.662447", "stage": "llm", "event": "STREAM", "chunk": " specific", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.786170", "stage": "llm", "event": "STREAM", "chunk": " name", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:13.909637", "stage": "llm", "event": "STREAM", "chunk": ".\n\n", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.033143", "stage": "llm", "event": "STREAM", "chunk": "Feel", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.156191", "stage": "llm", "event": "STREAM", "chunk": " free", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.282991", "stage": "llm", "event": "STREAM", "chunk": " to", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.408800", "stage": "llm", "event": "STREAM", "chunk": " give", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.534692", "stage": "llm", "event": "STREAM", "chunk": " me", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.659625", "stage": "llm", "event": "STREAM", "chunk": " a", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.786178", "stage": "llm", "event": "STREAM", "chunk": " nickname", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:14.910163", "stage": "llm", "event": "STREAM", "chunk": " if", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.032346", "stage": "llm", "event": "STREAM", "chunk": " you", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.155023", "stage": "llm", "event": "STREAM", "chunk": "'d", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.286524", "stage": "llm", "event": "STREAM", "chunk": " like", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.402877", "stage": "llm", "event": "STREAM", "chunk": "!", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.528916", "stage": "llm", "event": "END", "latency_sec": 19.217, "output": "It seems like you're asking me my name!\n\nI don't have a personal name, as I'm just an AI designed to assist and communicate with users. I'm often referred to as \"Assistant\" or \"AI Assistant,\" but I don't have a specific name.\n\nFeel free to give me a nickname if you'd like!", "tokens": 68, "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.529545", "stage": "router", "event": "END", "latency_sec": 19.321, "output": "general", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.529809", "stage": "memory", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.530413", "stage": "memory", "event": "INFO", "message": "Stored assistant turn | history depth: 2", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.531062", "stage": "memory", "event": "END", "latency_sec": 0.001, "output": "2 entries", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.531821", "stage": "tts", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.893227", "stage": "tts", "event": "INFO", "message": "Synthesising 52 words", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.893843", "stage": "tts", "event": "END", "latency_sec": 0.362, "output": "audio_ready", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:15.894493", "stage": "speaker", "event": "START", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:32.084203", "stage": "speaker", "event": "END", "latency_sec": 16.19, "output": "played", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:32.099568", "stage": "request", "event": "REQUEST_END", "request_id": "a527c588"}
+{"time": "2026-03-26 16:10:32.100345", "stage": "request", "event": "REQUEST_START", "request_id": "4e6c1719"}
+{"time": "2026-03-26 16:10:32.100655", "stage": "wake_word", "event": "START", "request_id": "4e6c1719"}
+{"time": "2026-03-26 16:10:32.100893", "stage": "wake_word", "event": "INFO", "message": "Waiting for wake word: 'rua'", "request_id": "4e6c1719"}
+{"time": "2026-03-26 16:10:38.565493", "stage": "wake_word", "event": "INFO", "message": "Could not understand audio", "request_id": "4e6c1719"}
+{"time": "2026-03-26 16:10:42.560171", "stage": "wake_word", "event": "INFO", "message": "Could not understand audio", "request_id": "4e6c1719"}
+{"time": "2026-03-26 16:11:08.103934", "stage": "assistant", "event": "INFO", "message": "Shutdown via KeyboardInterrupt", "request_id": "4e6c1719"}
